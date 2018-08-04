@@ -1,5 +1,6 @@
 node_modules
 Gemfile.lock
 *.pdf
+.DS_Store
 
 articles/*.html

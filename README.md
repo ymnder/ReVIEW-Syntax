@@ -1,3 +1,34 @@
+# Re:VIEW の書き⽅講座
+
+Re:VIEWの書き方を、原稿とpdfを比較して学ぶことができます。
+
+## Re:VIEW について
+
+Re:VIEWは、執筆環境を提供してくれるソフトウェアです。
+dockerコマンドをたたくだけで、 `.re` ファイルを `pdf` に出力できます。
+
+本執筆環境は、[TechBoosterのテンプレート](https://github.com/TechBooster/ReVIEW-Template)を使用しています。
+
+## Getting started
+1. リポジトリをcloneします
+2. dockerを入れます
+3. 以下のコマンドを実行します
+```
+$ docker pull vvakame/review
+$ ./build-in-docker.sh
+```
+4. article/に ReVIEW-Syntax.pdf が生成されます
+5. pdfの第１章でRe:VIEWの記法を概観できますのでご一読ください
+
+## Editor Setting for mac
+1. Atomを入れます
+2. `brew install redpen` します
+3. [language-review](https://atom.io/packages/language-review)と[linter-redpen](https://atom.io/packages/linter-redpen)をインストールします
+4. Atomで.reなファイルを開くと左下にlintが `shift + cmd + I` でPreviewが表示されます（Previewは簡易的なものです。実際の出力はpdf出力して行います）
+5. 表を作成するときにTabを使いますので、Preferences > Editor > Soft Tabs をオフにしてください
+
+--------------
+
 # Re:VIEW Template
 
 このリポジトリはRe:VIEW用の書籍テンプレートです。
