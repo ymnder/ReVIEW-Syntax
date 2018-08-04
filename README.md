@@ -1,6 +1,7 @@
-# Re:VIEW の書き⽅講座
+# Debut Re:VIEW
 
 Re:VIEWの書き方を、原稿とpdfを比較して学ぶことができます。
+何はともあれpdfを生成してみてください。
 
 ## Re:VIEW について
 
